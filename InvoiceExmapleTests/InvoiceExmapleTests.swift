@@ -2,8 +2,8 @@
 //  InvoiceExmapleTests.swift
 //  InvoiceExmapleTests
 //
-//  Created by Кирилл on 11/03/2020.
-//  Copyright © 2020 Кирилл. All rights reserved.
+//  Created by Кирилл Кузнецов on 12/03/2020.
+//  Copyright © 2020 Invoice LLC. All rights reserved.
 //
 
 import XCTest
@@ -29,6 +29,10 @@ class InvoiceExmapleTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testAuth64() {
+        
     }
 
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A085D5A241BA7BC00ECC249 /* InvoicePaymentFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A085D59241BA7BC00ECC249 /* InvoicePaymentFrame.swift */; };
+		5A8B0946241B7C3100FCA627 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B0945241B7C3100FCA627 /* StatusViewController.swift */; };
+		5A8B0948241B7C9C00FCA627 /* Status.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B0947241B7C9C00FCA627 /* Status.storyboard */; };
 		5AE251CB241911CD00882400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE251CA241911CD00882400 /* AppDelegate.swift */; };
 		5AE251CD241911CD00882400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE251CC241911CD00882400 /* SceneDelegate.swift */; };
 		5AE251CF241911CD00882400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE251CE241911CD00882400 /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		5AE251D7241911D100882400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE251D5241911D100882400 /* LaunchScreen.storyboard */; };
 		5AE251E2241911D100882400 /* InvoiceExmapleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE251E1241911D100882400 /* InvoiceExmapleTests.swift */; };
 		5AE251ED241911D100882400 /* InvoiceExmapleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE251EC241911D100882400 /* InvoiceExmapleUITests.swift */; };
+		5AE252032419FE4900882400 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE252022419FE4900882400 /* RestClient.swift */; };
+		5AE25205241A0EFC00882400 /* RequestCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE25204241A0EFC00882400 /* RequestCallback.swift */; };
+		5AE25207241A146E00882400 /* invoiceStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE25206241A146E00882400 /* invoiceStructs.swift */; };
+		5AE25209241A316300882400 /* InvoiceProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE25208241A316300882400 /* InvoiceProcessing.swift */; };
+		5AE2520B241A3AF200882400 /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE2520A241A3AF200882400 /* Payment.storyboard */; };
+		5AE2520D241A3B2500882400 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2520C241A3B2500882400 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +43,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5AFEC5C5241B9EF800CD5B5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFEC5E5241B9F3600CD5B5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A085D59241BA7BC00ECC249 /* InvoicePaymentFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicePaymentFrame.swift; sourceTree = "<group>"; };
+		5A085D5B241BA7F300ECC249 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A8B0945241B7C3100FCA627 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		5A8B0947241B7C9C00FCA627 /* Status.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Status.storyboard; sourceTree = "<group>"; };
 		5AE251C7241911CD00882400 /* InvoiceExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvoiceExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE251CA241911CD00882400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE251CC241911CD00882400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AE251CE241911CD00882400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE251CE241911CD00882400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		5AE251D1241911CD00882400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE251D3241911D100882400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE251D6241911D100882400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +85,13 @@
 		5AE251E8241911D100882400 /* InvoiceExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvoiceExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE251EC241911D100882400 /* InvoiceExmapleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceExmapleUITests.swift; sourceTree = "<group>"; };
 		5AE251EE241911D100882400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE252022419FE4900882400 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		5AE25204241A0EFC00882400 /* RequestCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCallback.swift; sourceTree = "<group>"; };
+		5AE25206241A146E00882400 /* invoiceStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invoiceStructs.swift; sourceTree = "<group>"; };
+		5AE25208241A316300882400 /* InvoiceProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceProcessing.swift; sourceTree = "<group>"; };
+		5AE2520A241A3AF200882400 /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		5AE2520C241A3B2500882400 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		5AFEC5A8241B983A00CD5B5A /* InvoicePaymentFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvoicePaymentFrame.swift; path = ../InvoicePaymentFrame/InvoicePaymentFrame/InvoicePaymentFrame.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A085D58241BA79F00ECC249 /* InvoicePaymentFrame */ = {
+			isa = PBXGroup;
+			children = (
+				5A085D59241BA7BC00ECC249 /* InvoicePaymentFrame.swift */,
+			);
+			path = InvoicePaymentFrame;
+			sourceTree = "<group>";
+		};
 		5AE251BE241911CD00882400 = {
 			isa = PBXGroup;
 			children = (
+				5A085D5B241BA7F300ECC249 /* README.md */,
 				5AE251C9241911CD00882400 /* InvoiceExmaple */,
 				5AE251E0241911D100882400 /* InvoiceExmapleTests */,
 				5AE251EB241911D100882400 /* InvoiceExmapleUITests */,
+				5AFEC5A2241B982900CD5B5A /* InvoicePaymentFrame */,
 				5AE251C8241911CD00882400 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +152,8 @@
 		5AE251C9241911CD00882400 /* InvoiceExmaple */ = {
 			isa = PBXGroup;
 			children = (
+				5A085D58241BA79F00ECC249 /* InvoicePaymentFrame */,
+				5AE252012419FE2900882400 /* backend */,
 				5AE251CA241911CD00882400 /* AppDelegate.swift */,
 				5AE251CC241911CD00882400 /* SceneDelegate.swift */,
 				5AE251CE241911CD00882400 /* ViewController.swift */,
@@ -106,6 +161,10 @@
 				5AE251D3241911D100882400 /* Assets.xcassets */,
 				5AE251D5241911D100882400 /* LaunchScreen.storyboard */,
 				5AE251D8241911D100882400 /* Info.plist */,
+				5AE2520A241A3AF200882400 /* Payment.storyboard */,
+				5AE2520C241A3B2500882400 /* PaymentViewController.swift */,
+				5A8B0945241B7C3100FCA627 /* StatusViewController.swift */,
+				5A8B0947241B7C9C00FCA627 /* Status.storyboard */,
 			);
 			path = InvoiceExmaple;
 			sourceTree = "<group>";
@@ -122,10 +181,29 @@
 		5AE251EB241911D100882400 /* InvoiceExmapleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5AE251EC241911D100882400 /* InvoiceExmapleUITests.swift */,
 				5AE251EE241911D100882400 /* Info.plist */,
+				5AE251EC241911D100882400 /* InvoiceExmapleUITests.swift */,
 			);
 			path = InvoiceExmapleUITests;
+			sourceTree = "<group>";
+		};
+		5AE252012419FE2900882400 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				5AE252022419FE4900882400 /* RestClient.swift */,
+				5AE25204241A0EFC00882400 /* RequestCallback.swift */,
+				5AE25206241A146E00882400 /* invoiceStructs.swift */,
+				5AE25208241A316300882400 /* InvoiceProcessing.swift */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		5AFEC5A2241B982900CD5B5A /* InvoicePaymentFrame */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEC5A8241B983A00CD5B5A /* InvoicePaymentFrame.swift */,
+			);
+			path = InvoicePaymentFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +216,8 @@
 				5AE251C3241911CD00882400 /* Sources */,
 				5AE251C4241911CD00882400 /* Frameworks */,
 				5AE251C5241911CD00882400 /* Resources */,
+				5AFEC5C5241B9EF800CD5B5A /* Embed App Extensions */,
+				5AFEC5E5241B9F3600CD5B5A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,9 +270,12 @@
 		5AE251BF241911CD00882400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Кирилл";
+				ORGANIZATIONNAME = InvoiceLLC;
 				TargetAttributes = {
 					5AE251C6241911CD00882400 = {
 						CreatedOnToolsVersion = 11.3;
@@ -233,6 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE251D7241911D100882400 /* LaunchScreen.storyboard in Resources */,
+				5AE2520B241A3AF200882400 /* Payment.storyboard in Resources */,
+				5A8B0948241B7C9C00FCA627 /* Status.storyboard in Resources */,
 				5AE251D4241911D100882400 /* Assets.xcassets in Resources */,
 				5AE251D2241911CD00882400 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE25207241A146E00882400 /* invoiceStructs.swift in Sources */,
+				5AE25205241A0EFC00882400 /* RequestCallback.swift in Sources */,
 				5AE251CF241911CD00882400 /* ViewController.swift in Sources */,
+				5AE2520D241A3B2500882400 /* PaymentViewController.swift in Sources */,
+				5A8B0946241B7C3100FCA627 /* StatusViewController.swift in Sources */,
 				5AE251CB241911CD00882400 /* AppDelegate.swift in Sources */,
+				5AE25209241A316300882400 /* InvoiceProcessing.swift in Sources */,
 				5AE251CD241911CD00882400 /* SceneDelegate.swift in Sources */,
+				5A085D5A241BA7BC00ECC249 /* InvoicePaymentFrame.swift in Sources */,
+				5AE252032419FE4900882400 /* RestClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

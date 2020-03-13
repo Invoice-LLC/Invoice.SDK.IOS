@@ -2,8 +2,8 @@
 //  InvoiceExmapleUITests.swift
 //  InvoiceExmapleUITests
 //
-//  Created by Кирилл on 11/03/2020.
-//  Copyright © 2020 Кирилл. All rights reserved.
+//  Created by Кирилл Кузнецов on 12/03/2020.
+//  Copyright © 2020 Invoice LLC. All rights reserved.
 //
 
 import XCTest
